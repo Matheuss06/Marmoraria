@@ -1,3 +1,29 @@
+/* Classes Principais */
+.container1{
+  width: 95%;
+  margin: 1px auto;
+  background-color:rgb(148, 138, 138);
+}
+
+.titulo{
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 30pt;
+}
+
+.linhatitulo{
+  height: 5px; 
+  background-color: black;
+  width: 25%;
+  margin: 10px auto ;
+
+}
+
+
+
+
 /* Header */
 header{
     width: 100%;
@@ -11,7 +37,6 @@ header{
     width: 250px;
     display: flex;
     justify-content: center;
-    background-color: black;
 }
 
 .logo{
@@ -153,6 +178,17 @@ header{
 /* Fim Header */
 
 
-.fundo{
-    background-color: beige;
+/* Pagina Principal */
+
+.carousel-div{
+  display: flex;
+  justify-content: center;
+
 }
+
+.imgs-carousel{
+  width: 550px;
+  height: 330px;
+
+}
+
