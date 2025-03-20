@@ -55,7 +55,7 @@
 
 
  <div class="copy">
-    <p>&copy; 2025 Nome da Empresa. Todos os direitos reservados.</p>
+    <p>&copy; 2025 Pedra Bela. Todos os direitos reservados.</p>
     </div>
    
   
