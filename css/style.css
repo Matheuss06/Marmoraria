@@ -30,9 +30,6 @@
   
   }
   
-  
-  
-  
   /* Header */
   header{
       width: 100%;
@@ -201,3 +198,131 @@
   
   }
   
+  /* footer  */
+
+/* Estilo geral do footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  margin-top: 100%;
+  padding: 1px;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.footerflex{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+/* Container principal */
+.footer-container {
+
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilos das seções do footer */
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: var(--verdeclaro); /* Cor para o hover */
+}
+
+/* Estilos das redes sociais */
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons li a:hover {
+  color: var(--verdeclaro);
+}
+
+/* Informações adicionais */
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-section a {
+  color:var(--verdeclaro);
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+/* Links adicionais na parte inferior */
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.footer-bottom ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer-bottom ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-bottom ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom ul li a:hover {
+  color: var(--verdemedio);
+}
+
+.copy{
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0%;
+  margin-bottom: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
