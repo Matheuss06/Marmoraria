@@ -1,3 +1,11 @@
+:root {
+    --bgclaro: #eee8b2 ;
+    --bgescuro: #c18d52;
+    --verdeescuro: #081b1b;
+    --verdefloresta: #203b37;
+    --verdemedio: #5a8f76;
+    --verdeclaro: #96cdb0;
+  }
 
 /* Classes Principais */
 .container1{
