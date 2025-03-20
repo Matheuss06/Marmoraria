@@ -12,8 +12,6 @@
             <li>Sobre</li>
             <li>Contato</li>
 
-            <h1> Pedroooo</h1>
-
             <button class="button2">
                 Orçamento
                 <svg viewBox="0 0 48 48" y="0px" x="0px" xmlns="http://www.w3.org/2000/svg">
