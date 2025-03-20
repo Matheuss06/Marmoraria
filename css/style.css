@@ -206,7 +206,7 @@ footer {
   color: #fff;
   margin-top: 100%;
   padding: 1px;
-  font-family: Arial, sans-serif;
+  font-family: inherit,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   position: relative;
 }
 
