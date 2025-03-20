@@ -7,10 +7,10 @@
 
     <nav class="menu">
         <ul>
-            <li>Home</li>
-            <li>Serviços</li>
-            <li>Sobre</li>
-            <li>Contato</li>
+            <a href="index.php"><li>Home</li></a>
+            <a href="servicos.php"><li>Serviços</li></a>
+            <a href="#Sobre"><li>Sobre</li></a>
+            <a href="contato.php"><li>Contato</li></a>
 
             <button class="button2">
                 Orçamento

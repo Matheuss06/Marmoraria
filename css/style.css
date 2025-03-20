@@ -7,63 +7,92 @@
     --verdeclaro: #96cdb0;
   }
 
-/* Classes Principais */
 .container1{
-    width: 95%;
+    width: 90%;
     margin: 1px auto;
     background-color:rgb(148, 138, 138);
   }
   
-  .titulo{
+.titulo{
     font-weight: bold;
     color: black;
     display: flex;
     justify-content: center;
     font-size: 30pt;
-  }
+    font-family: 'verdana';
+}
   
-  .linhatitulo{
+.linhatitulo{
     height: 5px; 
     background-color: black;
     width: 25%;
     margin: 10px auto ;
   
-  }
-  
-  /* Header */
-  header{
+}
+
+.divcontato{
+  display: flex;
+  justify-content: space-between;
+}
+
+.divimgcontato{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}  
+
+.imgcontato{
+  width: 500px;
+  height: 540px;  
+}
+
+.txtcontato{
+  width: 50%;
+  color: black;
+  font-family: 'verdana';
+}
+
+.txtcontato p{
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+}
+
+
+/* Header */
+header{
       width: 100%;
       background-color:var(--verdeescuro);
       height: 100px;
       display: flex;
       justify-content: space-between;
-  }
+}
   
-  .divlogo{
+.divlogo{
       width: 250px;
       display: flex;
       justify-content: center;
-  }
+}
   
-  .logo{
+.logo{
       width: 150px;
       height: 100px;
-  }
+}
   
-  .menu{
+.menu{
       display: inline-block;
       font-size: large;
       margin-right: 50px;
       margin-top: 20px;
       color: white;
-  }
+}
   
-  .menu ul{
+.menu ul{
       list-style: none;
       margin-top: 10px;
-  }
+}
   
-  .menu li{
+.menu li{
       display: inline-block;
       padding: 5px 10px;
       margin: 0px 5px;
@@ -79,20 +108,20 @@
       transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
       transition-duration: 400ms;
       transition-property: color;
-  }
+}
   
-  .menu li:focus,
-  .menu li:hover {
+.menu li:focus,
+.menu li:hover {
     color: #fff;
-  }
+}
   
-  .menu li:focus:after,
-  .menu li:hover:after {
+.menu li:focus:after,
+.menu li:hover:after {
     width: 100%;
     left: 0%;
-  }
+}
   
-  .menu li:after {
+.menu li:after {
     content: "";
     pointer-events: none;
     bottom: 1px;
@@ -104,10 +133,9 @@
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: width, left;
-  }
+}
   
-  /* From Uiverse.io by NelsonDJCR */ 
-  .button2 {
+.button2 {
       display: inline-block;
       transition: all 0.2s ease-in;
       position: relative;
@@ -119,22 +147,22 @@
       border-radius: 0.5em;
       background: #e8e8e8;
       border: 1px solid #e8e8e8;
-    }
+}
     
-    .button2 > svg {
+.button2 > svg {
       height: 30px;
       position: absolute;
       padding: 0px 5px;
       margin-top: -4px;
-    }
+}
     
-    .button2:active {
+.button2:active {
       color: #666;
       box-shadow: inset 4px 4px 12px #c5c5c5,
                  inset -4px -4px 12px #ffffff;
-    }
+}
     
-    .button2:before {
+.button2:before {
       content: "";
       position: absolute;
       left: 50%;
@@ -147,9 +175,9 @@
       display: block;
       transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
       z-index: -1;
-    }
+}
     
-    .button2:after {
+.button2:after {
       content: "";
       position: absolute;
       left: 55%;
@@ -162,49 +190,49 @@
       display: block;
       transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
       z-index: -1;
-    }
+}
     
-    .button2:hover {
+.button2:hover {
       color: #ffffff;
       border: 1px solid #009087;
-    }
+}
     
-    .button2:hover:before {
+.button2:hover:before {
       top: -35%;
       background-color: #009087;
       transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
-    }
+}
     
-    .button2:hover:after {
+.button2:hover:after {
       top: -45%;
       background-color: #009087;
       transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
-    }
+}
     
-  /* Fim Header */
+/* Fim Header */
   
   
-  /* Pagina Principal */
+/* Pagina Principal */
   
-  .carousel-div{
+.carousel-div{
     display: flex;
     justify-content: center;
   
-  }
+}
   
-  .imgs-carousel{
+.imgs-carousel{
     width: 550px;
     height: 330px;
   
-  }
+}
   
-  /* footer  */
+/* footer  */
 
 /* Estilo geral do footer */
 footer {
   background-color:var(--verdefloresta);
   color: #fff;
-  margin-top: 100%;
+  margin-top: 50%;
   padding: 1px;
   font-family: inherit,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   position: relative;
@@ -218,7 +246,6 @@ footer {
 
 /* Container principal */
 .footer-container {
-
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;

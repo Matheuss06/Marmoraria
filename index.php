@@ -15,7 +15,7 @@
 
 <div class="container1">
 
-<h1 class="titulo">Principais Serviços TESTE</h1>
+<h1 class="titulo">Principais Serviços</h1>
 <hr class="linhatitulo">
 
   <div class="carousel-div">
@@ -34,6 +34,8 @@
     </div>
   </div>
 
+
+ 
 </div>
     <?php include "footer.php" ?>
 </body>
