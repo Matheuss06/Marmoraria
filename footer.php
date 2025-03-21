@@ -1,61 +1,68 @@
 <footer>
-  <div class="footer-container">
-    <div class="footerflex">
-    <!-- Guia do Site -->
-    <div class="footer-section">
-      <h3>Guia do Site</h3>
-      <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="#">Sobre Nós</a></li>
-        <li><a href="servicos.php">Serviços</a></li>
-        <li><a href="contato.php">Contato</a></li>
-      </ul>
-    </div>
+        <div class="footer-container">
+            <!-- Site Navigation -->
+            <div class="footer-nav">
+                <h3>Guia do Site</h3>
+                <nav>
+                    <a href="index.php">Home</a>
+                    <a href="servicos.php">Serviços</a>
+                    <a href="#Sobre">Sobre Nós</a>
+                    <a href="contato.php">Contato</a>
+               
+                </nav>
+            </div>
 
-    <!-- Redes Sociais -->
-    <div class="footer-section">
-      <h3>Redes Sociais</h3>
-      <ul class="social-icons">
-        <li><a href="#"></a><img src="imgs/facebook.png" alt="" width="40px"></li>
-        <li><a href="#"></a><img src="imgs/instagram.png" alt="" width="40px"></li>
-        <li><a href="#"></a><img src="imgs/whatsapp.png" alt="" width="45px"></li>
-        <li><a href="#"></a><img src="imgs/tiktok.png" alt="" width="40px"></li>
-      </ul>
-    </div>
+            <!-- Redes Sociais -->
+            <div class="footer-center">
+                <!-- Social Media -->
+                <div class="social-media">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="#"><img class="hover" src="imgs/facebook.png" alt="" width="40px"></a>
+                        <a href="#"><img class="hover" src="imgs/instagram.png" alt="" width="40px"></a>
+                        <a href="#"><img class="hover" src="imgs/tiktok.png" alt="" width="40px"></a>
+						<a href="#"><img class="hover" src="imgs/whatsapp.png" alt="" width="40px"></a>
+                    </div>
+                </div>
+			</div>
 
-    <!-- Contato e Informações adicionais -->
-    <div class="footer-section">
-        <h3>Contato</h3>
-            <p><strong>Endereço:</strong> Rua Exemplo, 123 - Cidade</p>
-            <p><a href="contato.php">Veja no mapa</a></p>
-            <p><strong>Telefone:</strong> (11) 1234-5678</p>
-            <p><strong>Email:</strong> contato@empresa.com</p>
-    </div>
+             <!-- Pagamentos vai ter que mudar só os icones -->
+            <div class="footer-center">
+                <div class="social-media">
+                    <h3>Formas de Pagamentos</h3>
+                    <div class="social-icons">
+                    	<img src="imgs/mastercard.png" alt="" width="40px">
+                       		<img src="imgs/visa.png" alt="" width="40px">
+                     	<img src="imgs/pix.png" alt="" width="30px">
+                    </div>
+                </div>
+			</div>
 
-    <div style="margin-left:70px">
-        <h5>Horário de Funcionamento</h5>
-        <p>Segunda a Sexta: 9h - 18h</p>
-        <p>Sábado: 10h - 14h</p>
-        <p>Domingo: Fechado</p>
-    </div>
-        
+		<div>
+			<h3 style="display:flex;justify-content:center;">Contato</h3>
+			<br>
+				<p><strong>Endereço:</strong> Rua Exemplo, 123 - Cidade</p>
+				<p><a href="contato.php">Veja no mapa</a></p>
+			<p><strong>Telefone:</strong> (11) 1234-5678</p> 
+		</div>
+            <!-- Logo -->
+            <div class="footer-logo">
+             <img src="imgs/logo.jpeg" alt="" width="100px">
+            </div>
         </div>
-    </div>
-</div>
 
-  <!-- Links adicionais -->
-  <div class="footer-bottom">
-    <ul>
-      <li><a href="#">Termos de Uso</a></li>
-      <li><a href="#">Política de Privacidade</a></li>
-      <li><a href="#">FAQ</a></li>
-    </ul>
-</div>
+			<!-- Links adicionais -->
+			<div class="footer-bottom">
+				<ul>
+				<li><a href="#">Termos de Uso</a></li>
+				<li><a href="#">Política de Privacidade</a></li>
+				<li><a href="#">FAQ</a></li>
+				</ul>
+			</div>
 
 
- <div class="copy">
-    <p>&copy; 2025 Pedra Bela. Todos os direitos reservados.</p>
-    </div>
-   
-  
+			<div class="copy">
+				<p>&copy; 2025 Pedra Bela. Todos os direitos reservados.</p>
+				</div>
+
 </footer>
