@@ -12,32 +12,66 @@
 
 <!-- Inclusão do Header -->
 <?php include 'header.php' ?>
- <!-- Grid de Serviços -->
+
+ <!-- Serviços -->
  <div class="container my-5">
         <div class="row g-4">
             <div class="col-md-4">
                 <div class="card shadow">
-                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Bancadas">
+                    <img src="imgs/pia beje.webp" class="card-img-top" alt="Bancadas">
                     <div class="card-body">
-                        <h5 class="card-title">Bancadas</h5>
-                        <p class="card-text">Bancadas elegantes para cozinhas e banheiros, feitas sob medida.</p>
+                        <h5 class="card-title">xxxxxxxxx</h5>
+                        <p class="card-text">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
                         <a href="#" class="btn btn-dark">Saiba Mais</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card shadow">
-                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Pisos e Revestimentos">
+                    <img src="imgs/pia branca torneira dourada.webp" class="card-img-top" alt="Pisos e Revestimentos">
                     <div class="card-body">
-                        <h5 class="card-title">Pisos e Revestimentos</h5>
-                        <p class="card-text">Beleza e resistência com mármores e granitos exclusivos.</p>
+                        <h5 class="card-title">zzzzzzzzzzzzzzzzz</h5>
+                        <p class="card-text">Bzzzzzzzzzzzzzzzzzzzzzzzzzzzz.</p>
                         <a href="#" class="btn btn-dark">Saiba Mais</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card shadow">
-                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Escadas">
+                    <img src="imgs/pia completa.webp" class="card-img-top" alt="Escadas">
+                    <div class="card-body">
+                        <h5 class="card-title">Escadas</h5>
+                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
+                        <a href="#" class="btn btn-dark">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="imgs/foto 4.jpg" class="card-img-top" alt="Escadas">
+                    <div class="card-body">
+                        <h5 class="card-title">Escadas</h5>
+                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
+                        <a href="#" class="btn btn-dark">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="imgs/foto 7.jpg" class="card-img-top" alt="Escadas">
+                    <div class="card-body">
+                        <h5 class="card-title">Escadas</h5>
+                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
+                        <a href="#" class="btn btn-dark">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="" class="card-img-top" alt="Escadas">
                     <div class="card-body">
                         <h5 class="card-title">Escadas</h5>
                         <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
@@ -67,7 +101,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-4">
                 <div class="card shadow">
                     <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Escadas">
@@ -78,98 +111,9 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Escadas">
-                    <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Escadas">
-                    <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Escadas">
-                    <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Escadas">
-                    <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Escadas">
-                    <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Escadas">
-                    <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Escadas">
-                    <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Escadas">
-                    <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Escadas">
-                    <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
+           
+          
+          
         </div>
     </div>
 
