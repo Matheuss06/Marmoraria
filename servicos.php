@@ -10,112 +10,31 @@
 </head>
 <body>
 
+<!-- Inclusão do Banco -->
+<?php include 'banco.php' ?>
+
 <!-- Inclusão do Header -->
 <?php include 'header.php' ?>
 
- <!-- Serviços -->
- <div class="container my-5">
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="imgs/pia beje.webp" class="card-img-top" alt="Bancadas">
-                    <div class="card-body">
-                        <h5 class="card-title">xxxxxxxxx</h5>
-                        <p class="card-text">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="imgs/pia branca torneira dourada.webp" class="card-img-top" alt="Pisos e Revestimentos">
-                    <div class="card-body">
-                        <h5 class="card-title">zzzzzzzzzzzzzzzzz</h5>
-                        <p class="card-text">Bzzzzzzzzzzzzzzzzzzzzzzzzzzzz.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="imgs/pia completa.webp" class="card-img-top" alt="Escadas">
-                    <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
+<!-- Serviços -->
+<div class="container my-5">
 
+    <div class="row g-4">
+        <?php  foreach ($dados as $material): ?>
             <div class="col-md-4">
                 <div class="card shadow">
-                    <img src="imgs/foto 4.jpg" class="card-img-top" alt="Escadas">
+                    <img src="<?php echo $material['imagem']; ?>" class="card-img-top" alt="<?php echo $material['titulo']; ?>">
                     <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
+                        <h5 class="card-title"><?php echo $material['titulo']; ?></h5>
+                        <p class="card-text"><?php echo $material['descricao']; ?></p>
+                        <a href="detalhes.php?id=<?php echo $material['id']; ?>"class="btn btn-dark">Saiba Mais</a>
                     </div>
                 </div>
             </div>
+        <?php endforeach; ?>
 
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="imgs/foto 7.jpg" class="card-img-top" alt="Escadas">
-                    <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="" class="card-img-top" alt="Escadas">
-                    <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Escadas">
-                    <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Escadas">
-                    <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Escadas">
-                    <div class="card-body">
-                        <h5 class="card-title">Escadas</h5>
-                        <p class="card-text">Escadas sofisticadas que agregam valor e estilo ao seu ambiente.</p>
-                        <a href="#" class="btn btn-dark">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-           
-          
-          
-        </div>
     </div>
+</div>
 
 <?php include "footer.php" ?>
 </body>
