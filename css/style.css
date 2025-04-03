@@ -6,7 +6,7 @@
     --verdemedio: #5a8f76;
     --verdeclaro: #96cdb0;
   }
-  
+ 
 .container1{
     width: 90%;
     margin: 1px auto;
@@ -225,146 +225,124 @@ header{
     height: 330px;
   
 }
-  
-/* ---------------- footer -------------  */
-footer {
-    background-color: var(--verdefloresta);
-    color: white;
-    padding: 2rem 1.5rem;
-   margin: 0px;
-}
+
 
 .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 2rem;
+  background: var(--verdeescuro);
+  color: white;
+  padding: 40px 8%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position: relative;
 }
 
-/* Site Navigation */
-.footer-nav {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
 }
 
-.footer-nav nav {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+.footer-logo img {
+  width: 180px;
+  filter: brightness(0) invert(1);
 }
 
-.footer-nav a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
+.footer-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  border-bottom: 2px solid #5a8f76;
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
-.footer-nav a:hover {
-    color: #cbd5e0;
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-/* Center Section */
-.footer-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
+.footer-links ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-.social-media{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+.footer-links ul li {
+  margin-bottom: 8px;
 }
 
-.social-icons,
-.payment-icons {
-    display: flex;
-    gap: 1rem;
-}
-.hover:hover{
-border: 2px;
-border-radius: 50px;
-    
-}
-/* Links adicionais na parte inferior */
-.footer-bottom {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 14px;
-  }
-  
-  .footer-bottom ul {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 20px;
-  }
-  
-  .footer-bottom ul li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  .footer-bottom ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .footer-bottom ul li a:hover {
-    color: var(--verdemedio);
-  }
-  
-  .copy{
-    display: flex;
-    justify-content: center;
-    margin: 0px;
-    padding: 0%;
-    margin-bottom: 5px;
-  }
-  
-
-/* Logo Section */
-.footer-logo {
-    text-align: right;
+.footer-links ul li a {
+  color:var(--verdeclaro);
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.footer-logo p {
-    margin-top: 0.5rem;
-    color: #a0aec0;
-    max-width: 200px;
+.footer-links ul li a:hover {
+  color: #fff;
 }
 
-h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
+.footer-payments img {
+  width: 50px;
+  margin-right: 8px;
+
 }
 
-h3 {
-    font-size: 1.25rem;
-    font-weight: bold;
+.footer-social {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
 }
 
-/* Responsive Design */
+.footer-social a {
+  text-decoration: none;
+}
+
+.footer-social img {
+  width: 30px;
+  transition: transform 0.3s;
+}
+
+.footer-social img:hover {
+  transform: scale(1.1);
+}
+
+.footer-address p {
+  max-width: 250px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.footer-copy {
+  width: 100%;
+  text-align: center;
+ 
+  font-size: 14px;
+  border-top: 1px solid #f9eeee;
+  margin-top: 20px;
+}
+
 @media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  .footer-container {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+  }
 
-    .footer-nav nav {
-        align-items: center;
-    }
+  .footer-links {
+      align-items: center;
+  }
 
-    .footer-logo {
-        text-align: center;
-    }
+  .footer-social {
+      justify-content: center;
+  }
+
+  .footer-payments img {
+      width: 45px;
+  }
 }
-
-  
-  
