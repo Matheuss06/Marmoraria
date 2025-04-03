@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="Css/style.css">
     <title>Pedra Bela</title>
 </head>
-<body>
+<body class="fundofixo">
 
 <!-- Inclusão do Header -->
 <?php include 'header.php' ?>
@@ -21,14 +21,14 @@
   <div class="carousel-div">
     <!-- 1° Carousel -->
     <div class="w3-content w3-section" style="margin: auto;">
-      <img class="mySlides2 imgs-carousel" src="imgs/marmoreTeste01.jpg">
-      <img class="mySlides2 imgs-carousel" src="imgs/marmoreTeste02.jpg">
+      <img class="mySlides2 imgs-carousel" src="imgs/Banner 1.png">
+      <img class="mySlides2 imgs-carousel" src="imgs/bancadas.png">
       <img class="mySlides2 imgs-carousel" src="imgs/wallpaperAleatorio01.jpg">
     </div>
 
     <!-- 2° Carousel -->
     <div class="w3-content w3-section" style="margin: auto;">
-      <img class="mySlides1 imgs-carousel" src="imgs/marmoreTeste01.jpg">
+      <img class="mySlides1 imgs-carousel" src="imgs/banner 2.png">
       <img class="mySlides1 imgs-carousel" src="imgs/marmoreTeste02.jpg">
       <img class="mySlides1 imgs-carousel" src="imgs/wallpaperAleatorio01.jpg">
     </div>

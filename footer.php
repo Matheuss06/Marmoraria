@@ -47,7 +47,7 @@
 		</div>
             <!-- Logo -->
             <div class="footer-logo">
-             <img src="imgs/logo.jpeg" alt="" width="100px">
+             <img src="imgs/Logo sem fundo.png" alt="" width="350px">
             </div>
         </div>
 
