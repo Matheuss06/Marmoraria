@@ -3,70 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/boostrap/bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Contato - Marmoraria Pedra Bela</title>
     <link rel="stylesheet" href="Css/style.css">
-    <title>Pedra Bela</title>
-</head>
-<body>
-<?php include 'header.php' ?>
+    </head>
 
-<div class="container1">
+<body class="contato-body">
+    <?php include "header.php" ?>
+<?php
+session_start();
 
-    <section class="divcontato">
-        <article class="divimgcontato">
-            <img src="imgs/mapaliustrativo.jpg" alt="" class="imgcontato">
-        </article>
+// Inicializa o array de avaliações na sessão se ainda não existir
+if (!isset($_SESSION['avaliacoes'])) {
+    $_SESSION['avaliacoes'] = [];
+}
 
-        <article class="txtcontato">
-        
-            <div>
-                <h1 class="titulo">Contatos</h1>
-                <hr class="linhatitulo" style="width: 30%;">
+// Verifica se foi enviado um POST
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nome = htmlspecialchars($_POST["nome"]);
+    $mensagem = htmlspecialchars($_POST["mensagem"]);
+    $estrelas = intval($_POST["estrelas"]);
+
+    if (!empty($nome) && !empty($mensagem) && $estrelas > 0) {
+        // Adiciona a nova avaliação ao início do array
+        array_unshift($_SESSION['avaliacoes'], ["nome" => $nome, "mensagem" => $mensagem, "estrelas" => $estrelas]);
+
+        // Mantém apenas as últimas 5 avaliações
+        $_SESSION['avaliacoes'] = array_slice($_SESSION['avaliacoes'], 0, 5);
+    }
+}
+?>
+
+<div class="contato-container">
+    <h2 class="contato-titulo">Contato</h2>
+
+    <div class="contato-endereco">
+        <p>📍 Rua Exemplo, 123 - Bairro Nobre</p>
+        <p>🏙️ Cidade, Estado - CEP: 00000-000</p>
+        <p>📞 Telefone: (00) 1234-5678</p>
+    </div>
+
+    <div class="contato-formulario">
+        <h3 class="contato-titulo">Deixe sua Avaliação</h3>
+        <form method="post">
+            <label class="contato-label" for="nome">Seu Nome:</label>
+            <input class="contato-input" type="text" id="nome" name="nome" required>
+
+            <label class="contato-label" for="mensagem">Mensagem:</label>
+            <textarea class="contato-textarea" id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <div class="contato-estrelas">
+                <input class="contato-radio" type="radio" id="estrela5" name="estrelas" value="5">
+                <label class="contato-estrela" for="estrela5">★</label>
+                
+                <input class="contato-radio" type="radio" id="estrela4" name="estrelas" value="4">
+                <label class="contato-estrela" for="estrela4">★</label>
+                
+                <input class="contato-radio" type="radio" id="estrela3" name="estrelas" value="3">
+                <label class="contato-estrela" for="estrela3">★</label>
+                
+                <input class="contato-radio" type="radio" id="estrela2" name="estrelas" value="2">
+                <label class="contato-estrela" for="estrela2">★</label>
+                
+                <input class="contato-radio" type="radio" id="estrela1" name="estrelas" value="1">
+                <label class="contato-estrela" for="estrela1">★</label>
             </div>
-        
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda perferendis id consequatur doloremque culpa ex nobis molestiae optio, cum atque consequuntur? Eum, quibusdam? Ipsum omnis nulla consectetur expedita nihil architecto!</p>
-            </div>
 
-            <!-- Telefone SVG -->
-            <div style="margin-top: 50px;">
-                <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-                    </svg>
+            <button class="contato-botao" type="submit">Enviar Avaliação</button>
+        </form>
+    </div>
 
-                    (11) 94002-8922
-                </p>
-            </div>
-
-            <!-- Email SVG -->
-            <div style="margin-top: 50px;">
-                <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
-                    </svg>
-
-                    exemplo@gmail.com
-                </p>
-            </div>
-
-            <!-- Localização SVG -->
-            <div style="margin-top: 50px;">
-                <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
-                    </svg>
-
-                    Rua Exemplo, 123 - Cidade SP
-                </p>
-            </div>
-
-        </article>
-    </section>
-
+    <div class="contato-avaliacoes">
+        <h3 class="contato-titulo">Últimas Avaliações</h3>
+        <?php if (!empty($_SESSION['avaliacoes'])): ?>
+            <?php foreach ($_SESSION['avaliacoes'] as $avaliacao): ?>
+                <div class="contato-avaliacao">
+                    <strong><?php echo $avaliacao["nome"]; ?>:</strong>
+                    <p><?php echo $avaliacao["mensagem"]; ?></p>
+                    <p>
+                        <?php for ($i = 0; $i < $avaliacao["estrelas"]; $i++): ?>
+                            ⭐
+                        <?php endfor; ?>
+                    </p>
+                </div>
+            <?php endforeach; ?>
+        <?php else: ?>
+            <p>Nenhuma avaliação ainda. Seja o primeiro a avaliar!</p>
+        <?php endif; ?>
+    </div>
 </div>
 
-<?php include 'footer.php' ?>
 </body>
 </html>
