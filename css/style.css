@@ -9,7 +9,7 @@
  
 
 
-/* Header */
+/* ------------  Header ------------------- */
 header{
       width: 100%;
       background-color:var(--verdeescuro);
@@ -159,24 +159,116 @@ header{
       transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
     
-/* Fim Header */
+/* --------- Fim Header ----------------- */
+
   
-  
-/* Pagina Principal */
-  
-.carousel-div{
-    display: flex;
-    justify-content: center;
-  
-}
-  
-.imgs-carousel{
-    width: 550px;
-    height: 330px;
-  
+/* -------------  Pagina Principal --------------------- */
+
+/* CARROSSEL */
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
 }
 
-/* ------------ footer ---------------------- */
+.carousel img {
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.carousel img.active {
+  opacity: 1;
+}
+
+/* SOBRE NÓS */
+.sobre-nos {
+  padding: 60px 40px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sobre-texto {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.sobre-texto h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.sobre-texto p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.sobre-video {
+  flex: 1;
+}
+
+.sobre-video video {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* PRODUTOS MAIS VENDIDOS */
+.produtos {
+  padding: 60px 40px;
+  background: linear-gradient(to bottom, #f5f5f5, #e0e0e0);
+}
+
+.produtos h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.produtos-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.produto {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 280px;
+}
+
+.produto:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.produto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.produto h3 {
+  padding: 15px;
+  text-align: center;
+}
+
+
+/* -------------  Fim Principal --------------------- */
+
+
+/* ------------ Footer Geral  ---------------------- */
 .footer-container {
   background: var(--verdeescuro);
   color: white;

@@ -11,7 +11,7 @@ $dados = array(
     [
         "id" => 2,
         "titulo" => "Pia X",
-        "descricao" => "Uma pedra elegante e resistente para sua cozinha.",
+        "descricao" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum enim beatae rerum cupiditate quibusdam officia facilis assumenda in! Vitae, facere sit. Dolorem explicabo vel illo laboriosam reprehenderit suscipit inventore accusamus.",
         "valor" => 120.50,
         "imagem" => "imgs/pia preta torneira inox.webp"    
     ],
@@ -19,7 +19,7 @@ $dados = array(
     [
         "id" => 3,
         "titulo" => "Pia Y",
-        "descricao" => "Uma pedra elegante e resistente para sua cozinha.",
+        "descricao" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum enim beatae rerum cupiditate quibusdam officia facilis assumenda in! Vitae, facere sit. Dolorem explicabo vel illo laboriosam reprehenderit suscipit inventore accusamus.",
         "valor" => 120.50,
         "imagem" => "imgs/pia preta torneira inox.webp"    
     ],
@@ -27,7 +27,7 @@ $dados = array(
     [
         "id" => 4,
         "titulo" => "Pia Preta",
-        "descricao" => "Uma pedra elegante e resistente para sua cozinha.",
+        "descricao" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum enim beatae rerum cupiditate quibusdam officia facilis assumenda in! Vitae, facere sit. Dolorem explicabo vel illo laboriosam reprehenderit suscipit inventore accusamus.",
         "valor" => 120.50,
         "imagem" => "imgs/pia preta torneira inox.webp"    
     ],
@@ -35,15 +35,9 @@ $dados = array(
     [
         "id" => 5,
         "titulo" => "Pia S",
-        "descricao" => "Uma pedra elegante e resistente para sua cozinha.",
+        "descricao" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum enim beatae rerum cupiditate quibusdam officia facilis assumenda in! Vitae, facere sit. Dolorem explicabo vel illo laboriosam reprehenderit suscipit inventore accusamus.",
         "valor" => 120.50,
         "imagem" => "imgs/pia preta torneira inox.webp"    
     ]
-
-
-
-
 )
-
-
 ?>

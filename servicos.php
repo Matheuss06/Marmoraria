@@ -27,7 +27,7 @@
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $material['titulo']; ?></h5>
                         <p class="card-text"><?php echo $material['descricao']; ?></p>
-                        <a href="detalhes.php?id=<?php echo $material['id']; ?>"class="btn btn-dark">Saiba Mais</a>
+                        <a href="detalhes.php?id=<?php echo $material['id']; ?>"class="btn btn-dark">Faça seu orçamento </a>
                     </div>
                 </div>
             </div>
