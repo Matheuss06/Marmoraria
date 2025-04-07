@@ -19,24 +19,26 @@
 <!-- Serviços -->
 <div class="container my-5">
 
-    <div class="row g-4">
-        <?php  foreach ($dados as $material): ?>
-            <div class="col-md-4">
-                <div class="cards">
-                    <img src="<?php echo $material['imagem']; ?>" class="card-img-top imgcard" alt="<?php echo $material['titulo']; ?>">
-                    <div class="card-body divtextocard">
-                        <h5 class="titulocard"><?php echo $material['titulo']; ?></h5>
-                        <p class="textocard"><?php echo $material['descricao']; ?></p>
-                        <div class="botaocard">
-                            <a href="detalhes.php?id=<?php echo $material['id']; ?>"class="btn btn-light botaocard">Faça seu orçamento </a>
-                        </div>
-                    </div>
+    <div class="row g-4">    
+    <?php  foreach ($dados as $material): ?>
+    <div class="col-md-4">
+
+        <div class="card">
+            <img src="<?php echo $material['imagem']; ?>" alt="<?php echo $material['titulo']; ?>">
+            <div class="card__content">
+                <p class="card_titulo"><?php echo $material['titulo']; ?></p>
+                <p class="card_descricao"><?php echo $material['descricao'];?></p>
+                <div class="teste">
+                    <button class="botaowhatsapp"><span class="text">Para mais Informações</span>
+                    <span class="WhatsappBotao">Fale conosco!</span></button>
                 </div>
             </div>
-        <?php endforeach; ?>
+        </div>
     </div>
-    
+    <?php endforeach; ?>
+    </div>
 </div>
+
 
 <?php include "footer.php" ?>
 </body>
