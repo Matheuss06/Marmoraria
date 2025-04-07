@@ -476,3 +476,38 @@ div.contato-avaliacao {
   border-radius: 5px;
   margin-bottom: 10px;
 }
+
+/* ---------------- Serviços -------------- */
+
+.cards{
+  background-color: var(--verdeescuro);
+  border-radius: 0px 20px;
+}
+
+.imgcard{
+  width: 97%;
+  margin: 7px;
+  border-radius: 0px 20px;
+}
+
+.divtextocard{
+  margin: 15px;
+}
+
+.textocard{
+  color: white;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.titulocard{
+  color: white;
+  font-weight: bold;
+}
+
+.botaocard{
+  display: flex;
+  justify-content: end;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}

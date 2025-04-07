@@ -22,18 +22,20 @@
     <div class="row g-4">
         <?php  foreach ($dados as $material): ?>
             <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="<?php echo $material['imagem']; ?>" class="card-img-top" alt="<?php echo $material['titulo']; ?>">
-                    <div class="card-body">
-                        <h5 class="card-title"><?php echo $material['titulo']; ?></h5>
-                        <p class="card-text"><?php echo $material['descricao']; ?></p>
-                        <a href="detalhes.php?id=<?php echo $material['id']; ?>"class="btn btn-dark">Faça seu orçamento </a>
+                <div class="cards">
+                    <img src="<?php echo $material['imagem']; ?>" class="card-img-top imgcard" alt="<?php echo $material['titulo']; ?>">
+                    <div class="card-body divtextocard">
+                        <h5 class="titulocard"><?php echo $material['titulo']; ?></h5>
+                        <p class="textocard"><?php echo $material['descricao']; ?></p>
+                        <div class="botaocard">
+                            <a href="detalhes.php?id=<?php echo $material['id']; ?>"class="btn btn-light botaocard">Faça seu orçamento </a>
+                        </div>
                     </div>
                 </div>
             </div>
         <?php endforeach; ?>
-
     </div>
+    
 </div>
 
 <?php include "footer.php" ?>
