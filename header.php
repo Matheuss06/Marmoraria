@@ -1,7 +1,7 @@
 <header>
     <div>
         <div class="divlogo">
-            <img src="imgs/Logo sem fundo.png" alt="Logo da Marmoraria Pedra Bela" class="logo">
+            <img src="imgs/Logo/Logo sem fundo.png" alt="Logo da Marmoraria Pedra Bela" class="logo">
         </div>
     </div>
 

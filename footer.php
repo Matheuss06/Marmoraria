@@ -1,7 +1,7 @@
 <footer class="footer-container">
     <!-- Logo -->
     <div class="footer-column footer-logo">
-        <img src="imgs/Logo sem fundo.png" alt="Logo da Marmoraria">
+        <img src="imgs/Logo/Logo sem fundo.png" alt="Logo da Marmoraria">
     </div>
 
     <!-- Guia do Site -->
@@ -10,7 +10,7 @@
         <div class="footer-links">
             <ul>
                 <li><a href="index.php">🏠 Home</a></li>
-                <li><a href="#">📖 Sobre Nós</a></li>
+                <li><a href="#Sobre">📖 Sobre Nós</a></li>
                 <li><a href="servicos.php">🛠️ Serviços</a></li>
                 <li><a href="contato.php">📞 Contato</a></li>
             </ul>
@@ -20,18 +20,18 @@
     <!-- Formas de Pagamento -->
     <div class="footer-column footer-payments">
         <h3 class="footer-title">Formas de Pagamento</h3><br>
-        <img src="imgs/visa.png" alt="Visa">
-        <img src="imgs/pix.png" alt="Mastercard">
-        <img src="imgs/mastercard.png" alt="Pix">
+        <img src="imgs/Pagamentos/visa.png" alt="Visa">
+        <img src="imgs/Pagamentos/pix.png" alt="Mastercard">
+        <img src="imgs/Pagamentos/mastercard.png" alt="Pix">
     </div>
 
     <!-- Redes Sociais -->
     <div class="footer-column footer-social-container">
         <h3 class="footer-title">Redes Sociais</h3>
         <div class="footer-social">
-            <a href="#"><img src="imgs/facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="imgs/instagram.png" alt="Instagram"></a>
-            <a href="#"><img src="imgs/whatsapp.png" alt="WhatsApp"></a>
+            <a href="#"><img src="imgs/Redes/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="imgs/Redes/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="imgs/Redes/whatsapp.png" alt="WhatsApp"></a>
         </div>
     </div>
 

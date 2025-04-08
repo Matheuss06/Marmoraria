@@ -14,9 +14,9 @@
   
   <!-- CARROSSEL -->
   <div class="carousel">
-      <img src="imgs/Banner 1.png" class="active"/>
-        <img src="imgs/banner2.png" />
-          <img src="imgs/banner3 (2).png"/>
+      <img src="imgs/Banners/Banner1.png" class="active"/>
+        <img src="imgs/Banners/banner2.png" />
+          <img src="imgs/Banners/banner3.png"/>
     </div>
 
     <!-- SOBRE NÓS -->
@@ -56,7 +56,7 @@
 
     <!-- Whatsapp -->
     <a href="https://web.whatsapp.com/send?phone=5511932062416">
-		 <img class="whatsapp-link" src="imgs/whatsapp.png" alt="">
+		 <img class="whatsapp-link" src="imgs/Redes/whatsapp.png" alt="">
   </a>
   <!-- Inclusão do footer -->
   <?php include "footer.php" ?>
