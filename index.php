@@ -27,11 +27,12 @@
         Entre nossos principais serviços estão a produção de bancadas para cozinhas e banheiros, pias esculpidas, tampos de mesas e balcões, escadas, soleiras, peitoris e elementos decorativos como lareiras e painéis em pedra. Também realizamos a restauração e o polimento de superfícies, trazendo de volta o brilho e a beleza natural das pedras com técnicas modernas e seguras.
         Trabalhamos com uma grande variedade de materiais selecionados, oferecendo opções que combinam durabilidade, elegância e estilo para todo tipo de ambiente, seja residencial, comercial ou corporativo. Nosso compromisso é entregar qualidade em cada detalhe, sempre com pontualidade, transparência e um atendimento que coloca o cliente em primeiro lugar.
       </p>
-
       </div>
+              <!-- VIDEO DO SOBRE NÓS -->
       <div class="sobre-video animate__animated animate__fadeInRight">
         <!-- <video src="" controls></video> TESTE -->
       </div>
+
     </section>
 
   <!-- PRODUTOS MAIS VENDIDOS -->
