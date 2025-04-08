@@ -52,6 +52,11 @@
         </div>
       </div>
     </section>
+
+    <!-- Whatsapp -->
+    <a href="https://web.whatsapp.com/send?phone=5511932062416">
+		 <img class="whatsapp-link" src="imgs/whatsapp.png" alt="">
+  </a>
   <!-- Inclusão do footer -->
   <?php include "footer.php" ?>
 </body>

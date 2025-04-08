@@ -641,3 +641,21 @@ div.contato-avaliacao {
 .teste{
   margin: 96px;
 }
+
+/* ------------  Whatsapp ----------------- */
+
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+  margin-top: 16px;
+}
+
+.whatsapp-link:hover {
+  height: 70px;
+  width: 70px;
+    
+}
