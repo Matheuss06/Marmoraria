@@ -21,7 +21,7 @@
     </div>
 
     <!-- SOBRE NÓS -->
-    <section class="sobre-nos">
+    <section  class="sobre-nos" id="sobre">
       <div class="sobre-texto animate__animated animate__fadeInLeft">
         <h2>Marmoraria Pedra Bela</h2>
         <p>A Pedra Bela é uma empresa com tradição, qualidade e sofisticação para transformar pedras naturais em verdadeiras obras de arte. Com anos de experiência no mercado, oferecemos soluções completas em mármore, granito, quartzo e outras pedras nobres, sempre com atenção aos detalhes e um acabamento impecável. Atuamos desde o desenvolvimento do projeto até a instalação final, garantindo um serviço personalizado e feito sob medida para cada cliente.

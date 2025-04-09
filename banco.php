@@ -10,7 +10,7 @@ $dados = array(
 
     [
         "id" => 2,
-        "titulo" => "Bancada Fogão e Pia",
+        "titulo" => "Bancada e Pia",
         "descricao" => "Bancada prática e elegante, com espaço integrado para fogão e pia. Feita em mármore, oferece resistência, fácil limpeza e um visual sofisticado que valoriza qualquer ambiente.",
         "valor" => 120.50,
         "imagem" => "imgs/Produtos/Bancada fogao pia.png"    
