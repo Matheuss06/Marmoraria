@@ -19,27 +19,31 @@
 <!-- Serviços -->
 <div class="container my-5">
 
-    <div class="row g-4">    
-    <?php  foreach ($dados as $material): ?>
-    <div class="col-md-4">
 
-        <div class="card">
-            <img src="<?php echo $material['imagem']; ?>" alt="<?php echo $material['titulo']; ?>">
-            <div class="card__content">
-                <p class="card_titulo"><?php echo $material['titulo']; ?></p>
-                <p class="card_descricao"><?php echo $material['descricao'];?></p>
-                <div class="teste">
-                    <button class="botaowhatsapp"><span class="text">Para mais Informações</span>
-                    <span class="WhatsappBotao">Fale conosco!</span></button>
+    <div class="row g-4">  
+    <?php  foreach ($dados as $material): ?>
+        <div class="col-md-4">
+            <div class="card-container">
+                <div class="card card-1">
+                    <div class="card-details">
+                        <img src="<?php echo $material['imagem']; ?>" alt="<?php echo $material['titulo']; ?>" class="imgcard">
+                    </div>
+                <button class="card-button" onclick="mostrarOutroCard(this)">Mais Detalhes</button>
+                </div>
+
+                <div class="card card-2" style="display: none;">
+                    <div class="card-details">
+                        <h3 class="text-title">Informações completas</h3>
+                        <p class="text-body">Produto feito com granito preto, pia embutida, 120x60 cm. Ideal para cozinhas modernas.</p>
+                        <button class="card-button" onclick="voltarCard(this)">Voltar</button>
+                    </div>
                 </div>
             </div>
         </div>
+        <?php endforeach; ?>
     </div>
-    <?php endforeach; ?>
-    </div>
+
 </div>
-
-
 <?php include "footer.php" ?>
 </body>
 
@@ -48,6 +52,7 @@
   crossorigin="anonymous"></script>
 
 <script src="js/scripts.js"></script>
+
 
 </html>
 

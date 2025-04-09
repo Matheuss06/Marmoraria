@@ -5,7 +5,7 @@ $dados = array(
         "titulo" => "Marmore X",
         "descricao" => " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum enim beatae rerum cupiditate quibusdam officia facilis assumenda in! Vitae, facere sit. Dolorem explicabo vel illo laboriosam reprehenderit suscipit inventore accusamus.",
         "valor" => 0,
-        "imagem" => "imgs/pia beje.webp"    
+        "imagem" => "imgs/Produtos/Bancada e pia São Gabriel.png"    
     ],
 
     [
@@ -13,7 +13,7 @@ $dados = array(
         "titulo" => "Pia X",
         "descricao" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum enim beatae rerum cupiditate quibusdam officia facilis assumenda in! Vitae, facere sit. Dolorem explicabo vel illo laboriosam reprehenderit suscipit inventore accusamus.",
         "valor" => 120.50,
-        "imagem" => "imgs/pia preta torneira inox.webp"    
+        "imagem" => "imgs/Produtos/Bancada fogao pia.png"    
     ],
 
     [
