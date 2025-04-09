@@ -14,9 +14,6 @@
   <?php include 'header.php' ?>
   <div class="fundo-contato-informativo">
     <h1 class="titulo-contato-informativo"> Fale conosco!</h1>
-    <p class="descricao-contato-informativo">
- 
-    </p>
   </div>
 
   <div class="bloco-informacoes-contato">
