@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imgs/Logo/Logo sem fundo.png" type="image/png">
     <title>Contato - Marmoraria Pedra Bela</title>
     <link rel="stylesheet" href="Css/style.css">
     </head>

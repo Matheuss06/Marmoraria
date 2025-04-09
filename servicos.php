@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imgs/Logo/Logo sem fundo.png" type="image/png">
     <link rel="stylesheet" href="css/boostrap/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="Css/style.css">
@@ -19,6 +20,7 @@
 <!-- Serviços -->
 <div class="container my-5">
 
+<h2 class="TituloServico">Serviços</h2>
 
     <div class="row g-4">  
     <?php  foreach ($dados as $material): ?>
@@ -33,12 +35,15 @@
 
                 <div class="card card-2" style="display: none;">
                     <div class="card-details">
-                        <h3 class="text-title">Informações completas</h3>
-                        <p class="text-body">Produto feito com granito preto, pia embutida, 120x60 cm. Ideal para cozinhas modernas.</p>
+                        <h3 class="TituloDesc">Informações completas</h3>
+                        <p class="TextoDesc"><?php echo $material['descricao']; ?></p>
                         <button class="card-button" onclick="voltarCard(this)">Voltar</button>
                     </div>
                 </div>
             </div>
+            <div class="CentralizarTitulo">
+                <p class="TituloBanco"><?php echo $material['titulo']; ?></p>
+            </div>    
         </div>
         <?php endforeach; ?>
     </div>
