@@ -12,7 +12,40 @@
 <body>
   <!-- Inclusão do Header -->
   <?php include 'header.php' ?>
+  <div class="fundo-contato-informativo">
+    <h1 class="titulo-contato-informativo"> Fale conosco!</h1>
+    <p class="descricao-contato-informativo">
+ 
+    </p>
+  </div>
 
+  <div class="bloco-informacoes-contato">
+    <div class="info-item-contato">
+      <div class="titulo-info-contato">📍 Endereço</div>
+      <div class="texto-info-contato">Av jacu pessego 30M - Itaquera - SP</div>
+    </div>
+
+    <div class="info-item-contato">
+      <div class="titulo-info-contato">📞 Telefone</div>
+      <div class="texto-info-contato">(11) 95272-6667</div>
+    </div>
+
+    <div class="info-item-contato">
+      <div class="titulo-info-contato">📧 E-mail</div>
+      <div class="texto-info-contato">marmorariapedrabela5872@gmail.com</div>
+    </div>
+
+    <div class="info-item-contato">
+      <div class="titulo-info-contato">🕒 Horário de Atendimento</div>
+      <div class="texto-info-contato">Segunda à Sexta : 8:00 - 18:00 <br> Sábado: 8:00 às 14:00 <br>Domigo: Fechado</div>
+    </div>
+
+    <div class="redes-sociais-contato">
+      <a href="#"><img class="icone-rede-contato" src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+      <a href="#"><img class="icone-rede-contato" src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+      <a href="#"><img class="icone-rede-contato" src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp"></a>
+    </div>
+  </div>
     <!-- Whatsapp -->
     <a href="https://web.whatsapp.com/send?phone=5511932062416">
 	    <img class="whatsapp-link" src="imgs/Redes/whatsapp.png" alt="">

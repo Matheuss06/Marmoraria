@@ -41,16 +41,16 @@
       <h2 class="animate__animated animate__fadeInUp">Produtos Mais Vendidos</h2>
       <div class="produtos-grid">
         <div class="produto animate__animated animate__zoomIn">
-          <img src="imgs/Bancada branca.png" alt="Produto 1" />
-          <h3>Bancada de Mármore Branco</h3>
+          <img src="imgs/Produtos/Pia branca com tampa de marmore.png" alt="Produto 1" />
+          <h3>Pia Branca com tampa de Mármore</h3>
         </div>
         <div class="produto animate__animated animate__zoomIn" style="animation-delay: 0.2s;">
-          <img src="imgs/Bancada preta sao gabriel.png" alt="Produto 2" />
+          <img src="imgs/Produtos/Pia São Gabriel.png" alt="Produto 2" />
           <h3>Granito Preto São Gabriel</h3>
         </div>
         <div class="produto animate__animated animate__zoomIn" style="animation-delay: 0.4s;">
-          <img src="imgs/Pia de quartzo.png" alt="Produto 3" />
-          <h3>Pia de Cozinha em Quartzo</h3>
+          <img src="imgs/Produtos/Pia Branca.png" alt="Produto 3" />
+          <h3>Pia de Banheiro Branca</h3>
         </div>
       </div>
     </section>

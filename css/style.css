@@ -1,6 +1,6 @@
 :root {
     --bgclaro: #eee8b2 ;
-    --bgescuro: #c18d52;
+    --bgescuro: #feecd7;
     --verdeescuro: #081b1b;
     --verdefloresta: #203b37;
     --verdemedio: #5a8f76;
@@ -390,93 +390,71 @@ header{
 }
 
 /* ---------------- Contato -------------- */
-
-
-h2.contato-titulo {
-  margin-bottom: 15px;
-  border-bottom: 2px solid #d4af37;
-  display: inline-block;
-  padding-bottom: 5px;
+.fundo-contato-informativo {
+  padding: 50px 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
-div.contato-endereco p {
-  font-size: 16px;
-  margin: 10px 0;
-}
-
-div.contato-formulario {
-  margin-top: 20px;
-  text-align: left;
-}
-
-label.contato-label {
-  display: block;
-  margin-bottom: 5px;
-  font-size: 14px;
-}
-
-input.contato-input, textarea.contato-textarea {
-  width: 100%;
-  padding: 10px;
+.titulo-contato-informativo {
+  font-size: 3rem;
   margin-bottom: 10px;
-  border-radius: 5px;
-  border: 1px solid #d4af37;
 }
 
-div.contato-estrelas {
-  margin: 10px 0;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  gap: 5px;
+.descricao-contato-informativo {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-input.contato-radio {
-  display: none;
-}
-
-label.contato-estrela {
-  font-size: 25px;
-  color: #444;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-input.contato-radio:checked ~ label.contato-estrela,
-label.contato-estrela:hover,
-label.contato-estrela:hover ~ label.contato-estrela {
-  color: #d4af37;
-}
-
-button.contato-botao {
-  background: #d4af37;
-  color: #1c1c1c;
+.bloco-informacoes-contato {
+  max-width: 800px;
+  margin: 20px auto;
   padding: 10px;
-  border: none;
-  cursor: pointer;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.bloco-informacoes-contato:hover {
+  transform: scale(1.01);
+}
+
+.info-item-contato {
+  margin-bottom: 25px;
+}
+
+.titulo-info-contato {
+  font-size: 1.3rem;
   font-weight: bold;
-  width: 100%;
-  border-radius: 5px;
-  transition: 0.3s;
+  margin-bottom: 5px;
+  color: #1c1c1c;
 }
 
-button.contato-botao:hover {
-  background: #b28f2e;
+.texto-info-contato {
+  font-size: 1.1rem;
+  color: #444;
 }
 
-div.contato-avaliacoes {
-  margin-top: 20px;
-  text-align: left;
+.redes-sociais-contato {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-div.contato-avaliacao {
-  background: #333;
-  color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 10px;
+.icone-rede-contato {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: grayscale(100%);
 }
 
+.icone-rede-contato:hover {
+  transform: scale(1.1);
+  filter: none;
+}
 /* ---------------- Serviços -------------- */
 .TituloServico{
   font-size: 28px;
@@ -484,7 +462,7 @@ div.contato-avaliacao {
   color: #333;
   text-align: center;
   margin: 40px 0 20px 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: inherit;
   border-bottom: 2px solid #ccc;
   padding-bottom: 10px;
 }
