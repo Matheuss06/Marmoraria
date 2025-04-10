@@ -20,28 +20,29 @@
     <div class="info-item-contato">
       <div class="titulo-info-contato">📍 Endereço</div>
       <div class="texto-info-contato">Av jacu pessego 30M - Itaquera - SP</div>
-    </div>
 
-    <div class="info-item-contato">
       <div class="titulo-info-contato">📞 Telefone</div>
       <div class="texto-info-contato">(11) 95272-6667</div>
-    </div>
 
-    <div class="info-item-contato">
       <div class="titulo-info-contato">📧 E-mail</div>
       <div class="texto-info-contato">marmorariapedrabela5872@gmail.com</div>
-    </div>
 
-    <div class="info-item-contato">
       <div class="titulo-info-contato">🕒 Horário de Atendimento</div>
       <div class="texto-info-contato">Segunda à Sexta : 8:00 - 18:00 <br> Sábado: 8:00 às 14:00 <br>Domigo: Fechado</div>
-    </div>
 
-    <div class="redes-sociais-contato">
+      <div class="redes-sociais-contato">
       <a href="#"><img class="icone-rede-contato" src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
       <a href="#"><img class="icone-rede-contato" src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
       <a href="#"><img class="icone-rede-contato" src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp"></a>
     </div>
+  </div>
+
+
+
+    <div class="Mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4597.268326967737!2d-46.4570541!3d-23.505198099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce616a9846b529%3A0x63f8012bdb08a1a6!2sAv.%20Jacu-P%C3%AAssego%2C%2030%20-%20Vila%20Jacu%C3%AD%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008260-005!5e1!3m2!1spt-BR!2sbr!4v1744238580689!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0;" allowfullscreen="" class="ImgMapa" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
   </div>
     <!-- Whatsapp -->
     <a href="https://web.whatsapp.com/send?phone=5511932062416">

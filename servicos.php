@@ -37,7 +37,10 @@
                     <div class="card-details">
                         <h3 class="TituloDesc">Informações completas</h3>
                         <p class="TextoDesc"><?php echo $material['descricao']; ?></p>
-                        <button class="card-button" onclick="voltarCard(this)">Voltar</button>
+                        <div class="BotaoConsulta">
+                            <a href="#" class="Consultar"><div><span>Consultar Preço</span></div></a>
+                            <button class="card-button" onclick="voltarCard(this)">Voltar</button>
+                        </div>
                     </div>
                 </div>
             </div>
